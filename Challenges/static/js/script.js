@@ -1,7 +1,4 @@
-//Challenge1: Your age in days
-// const btnprimary = document.querySelector('button');
-// btnprimary.addEventListener('click', event => {
-
+//Challenge 1: Your age in days
 function countAgeIndays() {
     var bYear = prompt("What year were you born?");
     var bMonth = prompt("What month were you born?");
@@ -17,4 +14,12 @@ function countAgeIndays() {
 
 function resetAgeDaysCount() {
     document.getElementById('daysLived').remove();
+}
+
+//Challenge 2: Cat generator
+function generateCats() {
+    var image = document.createElement('img');
+    var div = document.getElementById('flex-cat-gen');
+    image.src = "https://cdn2.thecatapi.com/images/bh8.gif?size=small";
+    div.appendChild(image);
 }
