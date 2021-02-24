@@ -1,0 +1,16 @@
+[
+    {
+        "name":       "David",
+        "lastname":   "Hasselhoff",
+        "occupation": "Actor",
+        "age":         64,
+        "height":      193
+    },
+    {
+        "name":       "Chuck",
+        "lastname":   "Norris",
+        "occupation": "Sensei",
+        "age":         80,
+        "height":      178
+    }
+]
