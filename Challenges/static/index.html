@@ -28,7 +28,6 @@
     <div class="container-2">
         <h2>Challenge 2: Cat generator</h2>
         <button class="btn btn-success" id="cat-generator" onclick="generateCats()">Generate Cat</button>
-        
         <div class="flex-box-container-2" id="flex-cat-gen">
         </div>
     </div>
@@ -39,6 +38,24 @@
             <img id="rock" src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2Fdv424076%2F0x0.jpg" height="200" width="200" alt="" onclick="rpsGameStart(this)">
             <img id="paper" src="https://paper-media.com/media/image/product/5293/lg/mbc-8329_motif-letter-paper-old-paper-roll.jpg" height="200" width="200" alt="" onclick="rpsGameStart(this)">
             <img id="scissors" src="https://goldenopenings.com/assets/images/Golden-Openings-12-inch-nickel-scissors-open.jpg" height="200" width="200" alt="" onclick="rpsGameStart(this)">
+        </div>
+    </div>
+
+    <div class="container-4">
+        <h2 class="change-my-color">Challenge 4: Change the color of all buttons</h2>
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="reset">Reset</option>
+                </select>                
+            </form>
+            <button class="btn btn-primary">Wee</button>
+            <button class="btn btn-danger">Yahooo!</button>
+            <button class="btn btn-warning">Google!</button>
+            <button class="btn btn-success">Facebook!</button>
         </div>
     </div>
 
