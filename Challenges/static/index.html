@@ -1,6 +1,7 @@
 <html lang="en">
 
 <head>
+    <link rel="shortcut icon" href="#">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,6 +57,45 @@
             <button class="btn btn-danger">Yahooo!</button>
             <button class="btn btn-warning">Google!</button>
             <button class="btn btn-success">Facebook!</button>
+        </div>
+    </div>
+
+    <div class="container-5">
+        <h2>Challenge 5: Blackjack</h2>
+        <h3><span id="blackjack-result">Let's play</span></h3>
+
+        <div class="flex-blackjack-row-1">
+            <div id="player-box">
+                <h2>Player: <span id="player-blackjack-result">0</span></h2>
+            </div>
+            <div id="dealer-box">
+                <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+            </div>
+        </div> 
+
+        <div class="flex-blackjack-row-2">
+            <div>
+                <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">Hit</button>
+                <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button" onclick="">Stand</button>
+                <button class="btn-lg btn-danger mr-2" id="blackjack-deal-button" onclick="">Deal</button>
+            </div>
+        </div>
+        
+        <div class="flex-blackjack-row-3">
+            <table> 
+                <tbody>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+                    </tr>
+                    <tr>
+                        <td><span id="wins">0</span></td>
+                        <td><span id="losses">0</span></td>
+                        <td><span id="draws">0</span></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
